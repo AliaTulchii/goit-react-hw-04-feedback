@@ -1,0 +1,19 @@
+.Feedback__list{
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+.Feedback__item{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: rgba(236, 227, 213, 0.385);
+}
+
+.Feedback__item:not(:last-child){
+    margin-bottom: 10px;
+}
